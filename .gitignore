@@ -1,0 +1,11 @@
+.venv/
+__pycache__/
+*.pyc
+.pytest_cache/
+models/
+data/*.db
+generated_pdfs/*.pdf
+build/
+dist/
+*.spec
+settings.json
