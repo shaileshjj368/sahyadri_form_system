@@ -1,0 +1,9 @@
+services:
+  sahyadri-dev:
+    build:
+      context: ..
+      dockerfile: docker/Dockerfile
+    working_dir: /app
+    volumes:
+      - ..:/app
+    command: python -m pytest -q
