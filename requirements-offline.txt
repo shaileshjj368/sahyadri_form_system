@@ -1,7 +1,0 @@
-# OPTIONAL: offline speech-to-text fallback (not needed for the default online speech).
-# Install only if you want the app to recognise speech without internet:
-#   python -m pip install -r requirements-offline.txt
-#   .\installer\prepare_offline_stt.ps1
-# and set "speech_engine": "auto" (or "offline") in settings.json.
-faster-whisper>=1.2,<2
-huggingface_hub>=0.27,<2
